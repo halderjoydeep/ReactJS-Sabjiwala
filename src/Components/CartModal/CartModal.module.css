@@ -1,0 +1,85 @@
+.cartModal {
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 30rem;
+}
+
+.cartModal li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.amount {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding: 2px 4px 3px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+}
+
+.iconButton {
+  padding: 3px 3px;
+  border-radius: 100%;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.closeBtn {
+  background-color: red;
+}
+
+.closeBtn:hover {
+  background-color: rgb(145, 20, 20);
+}
+
+.checkoutBtn {
+  background-color: green;
+}
+
+.checkoutBtn:hover {
+  background-color: rgb(3, 55, 3);
+}

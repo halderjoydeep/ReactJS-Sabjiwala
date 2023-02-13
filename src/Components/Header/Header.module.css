@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(13, 6, 33);
+  color: white;
+  padding: 15px 100px;
+  border-bottom: 2px solid lime;
+}
+
+.header h2 {
+  font-size: 2rem;
+}
+
+.cartButton {
+  padding: 15px 50px;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.cartCount {
+  background-color: red;
+  padding: 5px 15px;
+  border-radius: 15px;
+}

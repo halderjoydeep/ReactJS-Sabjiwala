@@ -1,0 +1,18 @@
+.btn {
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  background-color: rgb(39, 46, 81);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1ch;
+}
+
+.btn:hover {
+  background-color: rgb(59, 70, 123);
+}

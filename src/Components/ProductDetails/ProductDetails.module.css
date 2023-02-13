@@ -1,0 +1,15 @@
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.productDetails p {
+  font-style: italic;
+  color: #333;
+}
+
+.productDetails h4 {
+  font-size: 18px;
+  color: rgb(255, 0, 0);
+}

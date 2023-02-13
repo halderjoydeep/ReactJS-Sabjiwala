@@ -1,0 +1,10 @@
+.productListCard {
+  background-color: white;
+  width: 45rem;
+  max-width: 90%;
+  margin: 5% auto;
+}
+
+.productListCard ul {
+  list-style: none;
+}
